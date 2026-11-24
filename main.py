@@ -1,10 +1,15 @@
-product_name = "Laptop"
-product_price = 45000000
-product_weight = 2.5
-is_available = False
+name = input("Enter your name: ")
+print(type(name))
 
+age = input("Enter your age: ")
+age = int(age)
 
-print(type(product_name))
-print(type(product_price))
-print(type(product_weight))
-print(type(is_available))
+height = input("Enter your height: ")
+height = float(height)
+
+print("----- User Information -----")
+
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Height: {height}")
+print(f"Next year age: {age + 1}")
